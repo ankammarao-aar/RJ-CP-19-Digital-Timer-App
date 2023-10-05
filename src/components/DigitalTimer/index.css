@@ -1,0 +1,120 @@
+.bg-container {
+  background-image: linear-gradient(to right, #ffffff, #cffcf1);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 62px;
+  text-align: center;
+}
+
+.heading {
+  font-family: 'Roboto';
+  color: #1e293b;
+}
+
+.time-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  height: 400px;
+  width: 400px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 22px;
+  margin-left: 0px;
+}
+
+.bg-white {
+  background-color: #ffffff;
+  height: 122px;
+  border-radius: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 22px;
+  margin-left: 38px;
+}
+
+.clack-time {
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #00d9f5;
+  margin-bottom: 0px;
+}
+
+.pause {
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 0px;
+}
+
+.start-reset-buttons-container {
+  display: flex;
+  margin-top: 32px;
+}
+
+.start-button {
+  background-color: transparent;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.play-image {
+  height: 22px;
+  margin-right: 8px;
+}
+
+.set-timer-limit-card {
+  font-family: 'Roboto';
+  padding: 22px;
+}
+
+.set-timer {
+  color: #1e293b;
+  font-size: 10px;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.plus-minus-buttons-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.minus {
+  color: #0f172a;
+  background-color: transparent;
+  font-size: 24px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  margin-right: 8px;
+  margin-left: 8px;
+}
+
+.number {
+  background-color: #00d9f5;
+  font-weight: bold;
+  width: 62px;
+  border-radius: 6px;
+  padding: 8px;
+}
